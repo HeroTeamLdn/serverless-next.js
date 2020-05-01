@@ -2,7 +2,7 @@ const path = require("path");
 const { mockDomain } = require("@serverless/domain");
 const { mockS3 } = require("@serverless/aws-s3");
 const { mockLambda, mockLambdaPublish } = require("@serverless/aws-lambda");
-const { mockCloudFront } = require("@serverless/aws-cloudfront");
+const { mockCloudFront } = require("@heroteam/aws-cloudfront");
 const NextjsComponent = require("../serverless");
 const obtainDomains = require("../lib/obtainDomains");
 const {

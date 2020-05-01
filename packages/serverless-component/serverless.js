@@ -86,7 +86,7 @@ class NextjsComponent extends Component {
       apiEdgeLambda
     ] = await Promise.all([
       this.load("@serverless/aws-s3"),
-      this.load("@serverless/aws-cloudfront"),
+      this.load("@heroteam/aws-cloudfront"),
       this.load("@serverless/aws-lambda", "defaultEdgeLambda"),
       this.load("@serverless/aws-lambda", "apiEdgeLambda")
     ]);
@@ -327,7 +327,7 @@ class NextjsComponent extends Component {
   async remove() {
     const [bucket, cloudfront, domain] = await Promise.all([
       this.load("@serverless/aws-s3"),
-      this.load("@serverless/aws-cloudfront"),
+      this.load("@heroteam/aws-cloudfront"),
       this.load("@serverless/domain")
     ]);
 
