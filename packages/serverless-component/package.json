@@ -1,5 +1,5 @@
 {
-  "name": "serverless-next.js",
+  "name": "@heroteam/serverless-next.js",
   "version": "1.10.3",
   "description": "Serverless nextjs powered by Serverless Components",
   "main": "serverless.js",
