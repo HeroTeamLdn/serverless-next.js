@@ -3,28 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# 1.11.0 (2020-05-01)
+# [1.11.0](https://github.com/danielcondemarin/serverless-next.js/compare/serverless-next.js@1.10.0...serverless-next.js@1.11.0) (2020-05-01)
 
 
 ### Features
 
-* **lambda-at-edge:** create new package with Lambda@Edge builder and handlers ([94f0a29](https://github.com/danielcondemarin/serverless-next.js/commit/94f0a29f0654f51d60653c8218c15802b2abb476))
-
-
-
-
-
-## [1.10.3](https://github.com/danielcondemarin/serverless-next.js/compare/serverless-next.js@1.10.1...serverless-next.js@1.10.3) (2020-05-01)
-
-**Note:** Version bump only for package serverless-next.js
-
-
-
-
-
-## [1.10.1](https://github.com/danielcondemarin/serverless-next.js/compare/serverless-next.js@1.10.0...serverless-next.js@1.10.1) (2020-05-01)
-
-**Note:** Version bump only for package serverless-next.js
+* **serverless-component:** custom cloudfront.origins input ([#376](https://github.com/danielcondemarin/serverless-next.js/issues/376)) ([69beb5a](https://github.com/danielcondemarin/serverless-next.js/commit/69beb5af20c5c3b4435b3b7a3de08265848c3692))
 
 
 
